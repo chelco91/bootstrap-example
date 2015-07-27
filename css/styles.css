@@ -1,0 +1,43 @@
+body {
+	background: url("../images/Abstract_Blue_Background_with_Wavy_Lines.jpg") fixed center;
+}
+/********************************************
+* Header Styles
+********************************************/
+header {
+	background-color: #000;
+	color: #fff;
+	margin-top: 30px;
+	padding: 20px 0 10px 0;
+}
+h1 {
+	display: inline-block;
+	padding: 20px 5px 5px;
+}
+
+/********************************************
+* Footer Styles
+********************************************/
+footer {
+	background-color: #000;
+	color: #fff;
+	margin-top: 30px;
+	padding: 20px 0 10px 0;
+}
+
+/***
+* Flexbox Sticky Footer
+* http://philipwalton.github.io/solved-by-flexbox/demos/sticky-footer/
+***/
+
+/*corrects IE min-height bug*/
+html { display: flex;}
+body { width: 100%;}
+.sfooter {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+.sfooter-content {
+	flex: 1 0 auto;
+}
