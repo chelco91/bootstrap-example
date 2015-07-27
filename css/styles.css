@@ -1,18 +1,11 @@
-body {
-	background: url("../images/Abstract_Blue_Background_with_Wavy_Lines.jpg") fixed center;
-}
 /********************************************
 * Header Styles
 ********************************************/
 header {
-	background-color: #000;
-	color: #fff;
-	margin-top: 30px;
-	padding: 20px 0 10px 0;
+
 }
 h1 {
-	display: inline-block;
-	padding: 20px 5px 5px;
+	display: inline;
 }
 
 /********************************************
